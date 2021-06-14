@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3BD4A22677985C004E22FB /* Pixly_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BD4A12677985C004E22FB /* Pixly_SwiftUIApp.swift */; };
+		8A3BD4A42677985C004E22FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BD4A32677985C004E22FB /* ContentView.swift */; };
+		8A3BD4A62677985E004E22FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BD4A52677985E004E22FB /* Assets.xcassets */; };
+		8A3BD4A92677985E004E22FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BD4A82677985E004E22FB /* Preview Assets.xcassets */; };
+		8A3BD4AB2677985E004E22FB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BD4AA2677985E004E22FB /* Persistence.swift */; };
+		8A3BD4AE2677985E004E22FB /* Pixly_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BD4AC2677985E004E22FB /* Pixly_SwiftUI.xcdatamodeld */; };
+		8A3BD4B92677985F004E22FB /* Pixly_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BD4B82677985F004E22FB /* Pixly_SwiftUITests.swift */; };
+		8A3BD4C42677985F004E22FB /* Pixly_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BD4C32677985F004E22FB /* Pixly_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A3BD4B52677985F004E22FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3BD4962677985B004E22FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3BD49D2677985C004E22FB;
+			remoteInfo = Pixly_SwiftUI;
+		};
+		8A3BD4C02677985F004E22FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3BD4962677985B004E22FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3BD49D2677985C004E22FB;
+			remoteInfo = Pixly_SwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A3BD49E2677985C004E22FB /* Pixly_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixly_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3BD4A12677985C004E22FB /* Pixly_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixly_SwiftUIApp.swift; sourceTree = "<group>"; };
+		8A3BD4A32677985C004E22FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A3BD4A52677985E004E22FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A3BD4A82677985E004E22FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A3BD4AA2677985E004E22FB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8A3BD4AD2677985E004E22FB /* Pixly_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pixly_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		8A3BD4AF2677985E004E22FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3BD4B42677985E004E22FB /* Pixly_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pixly_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3BD4B82677985F004E22FB /* Pixly_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixly_SwiftUITests.swift; sourceTree = "<group>"; };
+		8A3BD4BA2677985F004E22FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3BD4BF2677985F004E22FB /* Pixly_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pixly_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3BD4C32677985F004E22FB /* Pixly_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixly_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		8A3BD4C52677985F004E22FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A3BD49B2677985C004E22FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BD4B12677985E004E22FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BD4BC2677985F004E22FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3BD4952677985B004E22FB = {
+			isa = PBXGroup;
+			children = (
+				8A3BD4A02677985C004E22FB /* Pixly_SwiftUI */,
+				8A3BD4B72677985F004E22FB /* Pixly_SwiftUITests */,
+				8A3BD4C22677985F004E22FB /* Pixly_SwiftUIUITests */,
+				8A3BD49F2677985C004E22FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A3BD49F2677985C004E22FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BD49E2677985C004E22FB /* Pixly_SwiftUI.app */,
+				8A3BD4B42677985E004E22FB /* Pixly_SwiftUITests.xctest */,
+				8A3BD4BF2677985F004E22FB /* Pixly_SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3BD4A02677985C004E22FB /* Pixly_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BD4A12677985C004E22FB /* Pixly_SwiftUIApp.swift */,
+				8A3BD4A32677985C004E22FB /* ContentView.swift */,
+				8A3BD4A52677985E004E22FB /* Assets.xcassets */,
+				8A3BD4AA2677985E004E22FB /* Persistence.swift */,
+				8A3BD4AF2677985E004E22FB /* Info.plist */,
+				8A3BD4AC2677985E004E22FB /* Pixly_SwiftUI.xcdatamodeld */,
+				8A3BD4A72677985E004E22FB /* Preview Content */,
+			);
+			path = Pixly_SwiftUI;
+			sourceTree = "<group>";
+		};
+		8A3BD4A72677985E004E22FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BD4A82677985E004E22FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A3BD4B72677985F004E22FB /* Pixly_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BD4B82677985F004E22FB /* Pixly_SwiftUITests.swift */,
+				8A3BD4BA2677985F004E22FB /* Info.plist */,
+			);
+			path = Pixly_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		8A3BD4C22677985F004E22FB /* Pixly_SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BD4C32677985F004E22FB /* Pixly_SwiftUIUITests.swift */,
+				8A3BD4C52677985F004E22FB /* Info.plist */,
+			);
+			path = Pixly_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A3BD49D2677985C004E22FB /* Pixly_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3BD4C82677985F004E22FB /* Build configuration list for PBXNativeTarget "Pixly_SwiftUI" */;
+			buildPhases = (
+				8A3BD49A2677985C004E22FB /* Sources */,
+				8A3BD49B2677985C004E22FB /* Frameworks */,
+				8A3BD49C2677985C004E22FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixly_SwiftUI;
+			productName = Pixly_SwiftUI;
+			productReference = 8A3BD49E2677985C004E22FB /* Pixly_SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A3BD4B32677985E004E22FB /* Pixly_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3BD4CB2677985F004E22FB /* Build configuration list for PBXNativeTarget "Pixly_SwiftUITests" */;
+			buildPhases = (
+				8A3BD4B02677985E004E22FB /* Sources */,
+				8A3BD4B12677985E004E22FB /* Frameworks */,
+				8A3BD4B22677985E004E22FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A3BD4B62677985F004E22FB /* PBXTargetDependency */,
+			);
+			name = Pixly_SwiftUITests;
+			productName = Pixly_SwiftUITests;
+			productReference = 8A3BD4B42677985E004E22FB /* Pixly_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A3BD4BE2677985F004E22FB /* Pixly_SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3BD4CE2677985F004E22FB /* Build configuration list for PBXNativeTarget "Pixly_SwiftUIUITests" */;
+			buildPhases = (
+				8A3BD4BB2677985F004E22FB /* Sources */,
+				8A3BD4BC2677985F004E22FB /* Frameworks */,
+				8A3BD4BD2677985F004E22FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A3BD4C12677985F004E22FB /* PBXTargetDependency */,
+			);
+			name = Pixly_SwiftUIUITests;
+			productName = Pixly_SwiftUIUITests;
+			productReference = 8A3BD4BF2677985F004E22FB /* Pixly_SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A3BD4962677985B004E22FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8A3BD49D2677985C004E22FB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					8A3BD4B32677985E004E22FB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8A3BD49D2677985C004E22FB;
+					};
+					8A3BD4BE2677985F004E22FB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8A3BD49D2677985C004E22FB;
+					};
+				};
+			};
+			buildConfigurationList = 8A3BD4992677985B004E22FB /* Build configuration list for PBXProject "Pixly_SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A3BD4952677985B004E22FB;
+			productRefGroup = 8A3BD49F2677985C004E22FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3BD49D2677985C004E22FB /* Pixly_SwiftUI */,
+				8A3BD4B32677985E004E22FB /* Pixly_SwiftUITests */,
+				8A3BD4BE2677985F004E22FB /* Pixly_SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A3BD49C2677985C004E22FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3BD4A92677985E004E22FB /* Preview Assets.xcassets in Resources */,
+				8A3BD4A62677985E004E22FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BD4B22677985E004E22FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BD4BD2677985F004E22FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A3BD49A2677985C004E22FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3BD4AB2677985E004E22FB /* Persistence.swift in Sources */,
+				8A3BD4A42677985C004E22FB /* ContentView.swift in Sources */,
+				8A3BD4AE2677985E004E22FB /* Pixly_SwiftUI.xcdatamodeld in Sources */,
+				8A3BD4A22677985C004E22FB /* Pixly_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BD4B02677985E004E22FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3BD4B92677985F004E22FB /* Pixly_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3BD4BB2677985F004E22FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3BD4C42677985F004E22FB /* Pixly_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A3BD4B62677985F004E22FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A3BD49D2677985C004E22FB /* Pixly_SwiftUI */;
+			targetProxy = 8A3BD4B52677985F004E22FB /* PBXContainerItemProxy */;
+		};
+		8A3BD4C12677985F004E22FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A3BD49D2677985C004E22FB /* Pixly_SwiftUI */;
+			targetProxy = 8A3BD4C02677985F004E22FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A3BD4C62677985F004E22FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A3BD4C72677985F004E22FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3BD4C92677985F004E22FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixly_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pixly_SwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obs.pixly.Pixly-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3BD4CA2677985F004E22FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixly_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pixly_SwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obs.pixly.Pixly-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A3BD4CC2677985F004E22FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				INFOPLIST_FILE = Pixly_SwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obs.pixly.Pixly-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixly_SwiftUI.app/Pixly_SwiftUI";
+			};
+			name = Debug;
+		};
+		8A3BD4CD2677985F004E22FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				INFOPLIST_FILE = Pixly_SwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obs.pixly.Pixly-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixly_SwiftUI.app/Pixly_SwiftUI";
+			};
+			name = Release;
+		};
+		8A3BD4CF2677985F004E22FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				INFOPLIST_FILE = Pixly_SwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obs.pixly.Pixly-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixly_SwiftUI;
+			};
+			name = Debug;
+		};
+		8A3BD4D02677985F004E22FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				INFOPLIST_FILE = Pixly_SwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.obs.pixly.Pixly-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixly_SwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A3BD4992677985B004E22FB /* Build configuration list for PBXProject "Pixly_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3BD4C62677985F004E22FB /* Debug */,
+				8A3BD4C72677985F004E22FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3BD4C82677985F004E22FB /* Build configuration list for PBXNativeTarget "Pixly_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3BD4C92677985F004E22FB /* Debug */,
+				8A3BD4CA2677985F004E22FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3BD4CB2677985F004E22FB /* Build configuration list for PBXNativeTarget "Pixly_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3BD4CC2677985F004E22FB /* Debug */,
+				8A3BD4CD2677985F004E22FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3BD4CE2677985F004E22FB /* Build configuration list for PBXNativeTarget "Pixly_SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3BD4CF2677985F004E22FB /* Debug */,
+				8A3BD4D02677985F004E22FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A3BD4AC2677985E004E22FB /* Pixly_SwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A3BD4AD2677985E004E22FB /* Pixly_SwiftUI.xcdatamodel */,
+			);
+			currentVersion = 8A3BD4AD2677985E004E22FB /* Pixly_SwiftUI.xcdatamodel */;
+			path = Pixly_SwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A3BD4962677985B004E22FB /* Project object */;
+}
